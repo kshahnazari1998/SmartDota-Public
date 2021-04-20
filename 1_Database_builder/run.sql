@@ -1,0 +1,22 @@
+CREATE TABLE `DotaMatches` (
+  `GameID` bigint NOT NULL,
+  `TimeStamp` bigint DEFAULT NULL,
+  `GameSEQ` bigint NOT NULL,
+  `Leavers` int DEFAULT NULL,
+  `RadiantWin` int DEFAULT NULL,
+  `Pick1Rad` int DEFAULT NULL,
+  `Pick2Rad` int DEFAULT NULL,
+  `Pick3Rad` int DEFAULT NULL,
+  `Pick4Rad` int DEFAULT NULL,
+  `Pick5Rad` int DEFAULT NULL,
+  `Pick1Dir` int DEFAULT NULL,
+  `Pick2Dir` int DEFAULT NULL,
+  `Pick3Dir` int DEFAULT NULL,
+  `Pick4Dir` int DEFAULT NULL,
+  `Pick5Dir` int DEFAULT NULL,
+  `skill_level` int DEFAULT NULL,
+  PRIMARY KEY (`GameID`),
+  KEY `GameSeq_index` (`GameSEQ`),
+  KEY `Timestamp_index` (`TimeStamp`),
+  KEY `Gameseq_and_timestamp` (`GameSEQ`,`TimeStamp`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci

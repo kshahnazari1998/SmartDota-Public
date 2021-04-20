@@ -1,0 +1,9 @@
+{
+    "database": {
+        "host": "xxx",
+        "user": "xxx",
+        "passwd": "xxx",
+        "database": "Dota"
+    },
+    "api_key": "xxx"
+}

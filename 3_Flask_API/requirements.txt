@@ -1,0 +1,6 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+flask
+flask_cors
+flask_talisman
+torch==1.7.1+cpu
+gunicorn
