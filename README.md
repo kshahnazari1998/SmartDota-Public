@@ -9,10 +9,6 @@ The front end only works for PC users because the users of this websites would b
 
 This Repo gives the insturctions to recreate the smartdota.com website.
 
-All Rights Reserved for Khashayar Shahnazari.
-
-This is only for educational purposes to see how to create a data pipe line.
-
 
 ---
 ## Description
