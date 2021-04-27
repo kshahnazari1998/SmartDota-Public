@@ -20,3 +20,7 @@ screen needs to be installed on the computer engine so after the terminal is clo
 Screen -S Dotasession
 ```
 
+7) Run the code 
+`python Dota_picks_scraper.py`
+and then detach the screen by pressing Ctrl + Alt + D and then close the terminal.
+
