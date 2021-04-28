@@ -1,16 +1,5 @@
-# smartdota
+The final step is to deploy the flutter webapp so that the users have a interface to communicate with the models we just built. 
 
-A new Flutter application.
+1) After installing flutter create a new flutter Application and replace the assets, lib folder with the ones in this folder. Also match the pubspec.yaml with the ones in this folder.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2) Change line 475 of the 
