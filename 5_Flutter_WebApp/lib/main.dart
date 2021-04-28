@@ -472,7 +472,7 @@ class _Hero_searcher extends State<Hero_searcher> {
 }
 
 Future<String> predict_with_data(Function update) async {
-  var request = "http://smart-dota.herokuapp.com/api/v1/predictor?";
+  var request = "http://xxx.herokuapp.com/api/v1/predictor?";
   for (var i = 0; i < 5; i++) {
     request = request +
         'r' +
