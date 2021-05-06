@@ -3,4 +3,6 @@ flask
 flask_cors
 flask_talisman
 torch==1.7.1+cpu
+numpy
+sklearn
 gunicorn
